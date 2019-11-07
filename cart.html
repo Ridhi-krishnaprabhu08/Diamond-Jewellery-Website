@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script>
+$(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();  
+});
+  </script>
+  <style>
+  body {
+      position: relative;
+ background-image:url("b1.jpg") ;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+<div class="container"  >
+<h3>ITS YOUR TIME</h3>
+  <div class="jumbotron">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html" data-toogle="tooltip" title="It's our Shopping!">E-SHOPPING</a>
+       <a class="navbar-brand" href="l1.php" data-toogle="tooltip" title="Go and Make it as yours  !">CART</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1" data-toogle="tooltip" title="BEST COMPANION !">MOBILES</a></li>
+          <li><a href="#section2" data-toogle="tooltip" title="SMART MORE THAN US... ">LAPTOP</a></li>
+          <li><a href="#section3" data-toogle="tooltip" title="CAPTURE MEMORIES MORE THAN PICTURES..">CAMERA</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">OTHERS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">HEAD PHONE</a></li>
+              <li><a href="#section42">PEN DRIVE</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<form action="f3.php" method="post">    
+<div id="section1" class="container-fluid">
+  <h5 style='font-size:150%;font-family:decorative;'><b><font color="tomato"><center>MOBILES</center></font></b></h5>
+  <div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/p4.jpg" class="img-rounded"></img>Vivo Pro Rs.15,999<input type="submit" id="b1" class="btn btn-warning" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/p6.jpg" class="img-rounded"></img>Samsung j7 Rs.16,899<input type="submit" id="b2"  class="btn btn-warning" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/p1.jpg" class="img-rounded"></img>Iphone X Rs.55,999<input type="submit" id="b3"  class="btn btn-warning" value="ADD TO CART"></div>
+  </div>
+ 
+</div>
+<div id="section2" class="container-fluid">
+  <h5 style='font-size:150%;font-family:decorative;'><font color="tomato"><b><center>LAPTOP</center></b></font></h5>
+  <div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/l10.jpg" class="img-rounded">  <br>HP Intel i5 Rs.38,999</img><input type="submit" id="b4"  class="btn btn-warning" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/l6.jpg" class="img-rounded">DELL Rs.40,899</img><input type="submit" id="b5"  class="btn btn-warning" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/l7.jpg" class="img-rounded">HP Intel i8 Rs.67,999</img><input type="submit" id="b6"  class="btn btn-warning" value="ADD TO CART"></div>
+  </div>
+</div>
+<div id="section3" class="container-fluid">
+<h5 style='font-size:150%;font-family:decorative;' ><font color="#0066ff"><b><center>CAMERA</center></b></font></h5>
+  <div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/c1.jpg" class="img-rounded">Nikon Rs.30,999</img><input type="submit" id="b7"  class="btn btn-info" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/c2.jpg" class="img-rounded">DSLR Rs.50,000</img><input type="submit" id="b8"  class="btn btn-info" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/c3.jpg" class="img-rounded">SONY Rs.38,755</img><input type="submit" id="b9"  class="btn btn-info" value="ADD TO CART"></div>
+  </div>
+</div>
+<div id="section41" class="container-fluid">
+ <h5 style='font-size:150%;font-family:decorative;' ><font color="tomato"><b><center>HEAD PHONES</center></b></font></h5>
+  <div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/h2.jpg" class="img-rounded">Sony Head phone Rs.4,500</img><input type="submit" id="b10"  class="btn btn-success" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/h1.jpg" class="img-rounded"> HP Head Phone Rs.5,000</img><input type="submit" id="b11"  class="btn btn-success" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/h4.jpg" class="img-rounded">Mac Head Phone Rs.6,000</img><input type="submit" id="b12"  class="btn btn-success" value="ADD TO CART"></div>
+  </div>
+</div>
+<div id="section42" class="container-fluid">
+ <h5 style='font-size:150%;font-family:decorative;'><font color="tomato"><b><center>PENDRIVE</center></b></font></h5>
+  <div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/d1.jpg" class="img-rounded">Transcend 32GB Rs.300</img><input type="submit" id="b13"  class="btn btn-success" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/d2.jpg" class="img-rounded">  HP 64GB Rs.750</img><input type="submit" id="b14"  class="btn btn-success" value="ADD TO CART"></div>
+<div class="col-md-4 col-sm-4 col-xs-12"><img src="images/d5.jpg" class="img-rounded">SONY 32GB Rs.400</img><input type="submit" id="b15"  class="btn btn-success" value="ADD TO CART"></div>
+  </div>
+ </div>
+<input name="as1" id="as" type="text"   value=""/>
+ 
+</div>
+</div>
+</form>
+<script>
+$("#b1").click(function(event){
+$('#as').val("m1");
+$('#b1').val("ADDED");
+alert("Added Successfully");
+});
+$("#b2").click(function(event){
+$('#as').val("m2");
+alert("Added Successfully");
+});
+$("#b3").click(function(event){
+$('#as').val("m3");
+alert("Added Successfully");
+});
+$("#b4").click(function(event){
+$('#as').val("l1");
+alert("Added Successfully");
+});
+$("#b5").click(function(event){
+$('#as').val("l2");
+alert("Added Successfully");
+});
+$("#b6").click(function(event){
+$('#as').val("l3");
+alert("Added Successfully");
+});
+$("#b7").click(function(event){
+$('#as').val("c1");
+alert("Added Successfully");
+});
+$("#b8").click(function(event){
+$('#as').val("c2");
+alert("Added Successfully");
+});
+$("#b9").click(function(event){
+$('#as').val("c3");
+alert("Added Successfully");
+});
+$("#b10").click(function(event){
+$('#as').val("h1");
+alert("Added Successfully");
+});
+$("#b11").click(function(event){
+$('#as').val("h2");
+alert("Added Successfully");
+});
+$("#b12").click(function(event){
+$('#as').val("h3");
+alert("Added Successfully");
+});
+$("#b13").click(function(event){
+$('#as').val("d1");
+alert("Added Successfully");
+});
+$("#b14").click(function(event){
+$('#as').val("d2");
+alert("Added Successfully");
+});
+$("#b15").click(function(event){
+$('#as').val("d3");
+alert("Added Successfully");
+});
+</script>
+</body>
+</html>
